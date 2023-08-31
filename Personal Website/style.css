@@ -1,0 +1,54 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    position: relative;
+}
+
+:root {
+    --white-color: #fff;
+    --bg-color: #fff;
+    --gray-color: #ccc;
+}
+
+.nav-item .nav-link {
+    color: var(--white-color);
+}
+
+#contact {
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+    background-image: url("./img/contactme.jpg");
+}
+
+.social-icons a {
+    width: 40px;
+    height: 40px;
+}
+
+footer .social-icons a {
+    width: 30px;
+    height: 30px;
+}
+
+@media screen and (max-width: 990px) {
+    .abouth {
+        display: block;
+        text-align: center;
+        column-count: 1;
+    }
+
+    .brd {
+        width: 100%;
+    }
+
+    .carousel {
+        display: inline-block;
+        align-items: center;
+        width: 100%;
+    }
+}
